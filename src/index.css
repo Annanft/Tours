@@ -78,5 +78,17 @@ h1{
   border-radius: 5px;
   padding: 0 5px;
 }
- 
+.load{
+  width: 6rem;
+  height: 6rem;
+  border: 10px solid gray;
+  border-radius: 50%;
+  border-top-color: rgb(36, 240, 36);
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin{
+  to{
+    transform: rotate(360deg);
+  }
+}
 
