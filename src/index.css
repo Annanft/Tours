@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ background-color: rgb(157, 157, 245);
+ color: rgb(46, 46, 46);
+}
+
+.card-item{
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 90vh;
+  max-width: 400px;
+  margin: 1.5rem;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 0.5rem;
+  
+}
+.card-item img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.container{
+ 
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  
+  
+  
+}
+.not{
+  padding: 1rem;
+  background-color: rgb(215, 215, 237);
+  border: none;
+  border-radius: 20px;
+  margin: 1rem;
+  width: 80%;
+  cursor: pointer;
+  font: inherit;
+  
+  
+  
+}
+.card-item p{
+  font-size: 12px;
+}
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+.wrapper{
+  padding: 1rem;
+}
+.x{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.read-more{
+  cursor: pointer;
+  border: none;
+  background-color: blue;
+  color: white;
+  margin-left: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+ 
+
